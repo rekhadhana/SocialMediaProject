@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#profile-area{
+    margin: 10px 0 10px 10px;
+    width: 28%;
+
+}
+#feed-area{
+    width: 70%;
+    /* margin: 10px 0 10px 10px; */
+    
+}
+#side-profile{
+    background-color: #7b1fa2;
+    /* width: 200px; */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#side-all{
+    background-color: #AAC4D4;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+#side-youlike{
+    background-color: #8E268F;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+#side-likeyou{
+    background-color:#C67920;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.side-box{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    /* padding: 10px; */
+    /* margin-bottom: 10px; */
+}
+.post{
+    background-color: #1565c0;
+    color:white;
+    font-size: 16px;
+}
+#post-form{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 93%;
+    background-color:rgb(211, 211, 211);
+    border: 1px solid rgba(0, 0, 0, 0.38);
+}
+#post-form textarea{
+    font-size: 16px;
+    
+    width: 100%;
+}
+#post-form button{
+    color: white;
+    background-color: #00897b;
+    font-size: 16px;
+    line-height: 45px;
+    width: 100%;
+    
+}
+#wrapper a{
+    color: white;
+    text-decoration: none;
+}
+#wrapper{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid lightblue;
+    
+}
+#wrapper a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.post{
+    /* width: 80%; */
+}
+.post div:nth-child(2){
+font-size: 12px;
+}
+.post div:nth-child(2) a{ 
+     font-weight: bold;
+    }
+.post div:nth-child(1),.post div:nth-child(2){
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 10px;
+    padding: 10px;
+    /* width: 93%; */
+}
+.post div:last-child span{
+    /* color: red; */
+    margin-right:350px;
+    /* text-align: start; */
+}
+.post div:last-child a{
+    /* color: red; */
+    margin-lef:200px;
+    /* text-align: start; */
+}
+ul{
+    padding-left:10px;
+    margin-right: 2px;
+    
+}
